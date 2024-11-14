@@ -49,11 +49,19 @@ C:\xampp\htdocs\escola-reforco\
 Agora, você precisa configurar o banco de dados no MySQL para o sistema funcionar corretamente.
 
 7. **Passo a Passo:**
+
 Abra o painel de controle do XAMPP e inicie o Apache e o MySQL.
+
 Abra o phpMyAdmin digitando http://localhost/phpmyadmin/ na barra de endereços do seu navegador.
+
 No phpMyAdmin, clique em Novo para criar um novo banco de dados.
+
 Nomeie o banco de dados como escola_reforco (ou qualquer outro nome, se preferir).
+
 Importe o arquivo SQL para criar as tabelas do banco de dados:
+
 No phpMyAdmin, selecione o banco de dados escola_reforco que você acabou de criar.
+
 Clique na aba Importar.
+
 Selecione o arquivo Banco_escola_reforco.sql que está incluído no projeto e clique em Executar.
